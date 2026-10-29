@@ -1,0 +1,253 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0068b5"><meta name="description" content="Find a laptop direction based on your life, workload and priorities."><title>Find Your Fit | Explore Intel-Powered Laptops</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');:root{--bg:#071b32;--panel:#102b48;--panel2:#153958;--blue:#0879d1;--cyan:#63d5ff;--white:#f5f9fc;--muted:#b8c9d8;--line:#31516e;--lime:#c8f169}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:'DM Sans',Arial,sans-serif}button{font:inherit;cursor:pointer}a{color:var(--cyan)}.wrap{width:min(1160px,92vw);margin:auto}.topbar{height:72px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff1a}.brand{font-family:'Space Grotesk',sans-serif;font-weight:700;letter-spacing:.04em;font-size:1.15rem}.brand span{color:var(--cyan)}.badge{font-size:.76rem;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:8px 12px}.hero{min-height:calc(100svh - 72px);display:grid;grid-template-columns:1.1fr .9fr;gap:4vw;align-items:center;padding:60px 0 75px;overflow:hidden}.eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--cyan);font-weight:700}.hero h1{font:600 clamp(3rem,7.5vw,6.5rem)/.96 'Space Grotesk',sans-serif;letter-spacing:-.065em;margin:20px 0}.hero h1 em{font-style:normal;color:var(--cyan)}.lead{font-size:clamp(1rem,1.7vw,1.2rem);line-height:1.7;color:var(--muted);max-width:560px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{border:0;border-radius:12px;padding:14px 20px;font-weight:700;transition:.2s}.btn:hover{transform:translateY(-2px)}.primary{background:var(--cyan);color:#05172b}.secondary{background:transparent;color:var(--white);border:1px solid var(--line)}.hero-art{min-height:420px;position:relative;display:grid;place-items:center}.orb{position:absolute;width:min(34vw,400px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 25%,#3cb6f2,#0960a6 38%,#102b48 70%);filter:drop-shadow(0 0 70px #0879d155)}.laptop{z-index:1;width:min(90%,490px);transform:rotate(-5deg)}.screen{height:260px;border:10px solid #b9c9d5;border-bottom-width:18px;border-radius:18px 18px 8px 8px;background:linear-gradient(140deg,#0b2b4a,#146fa4 48%,#72dfff);box-shadow:0 25px 60px #0006;display:flex;flex-direction:column;justify-content:center;padding:28px}.screen small{letter-spacing:.2em;color:#bfeeff}.screen strong{font:700 clamp(2rem,4vw,3.4rem)/.98 'Space Grotesk';margin:14px 0;letter-spacing:-.05em}.screen strong span{color:var(--lime)}.base{height:20px;background:linear-gradient(#dbe5eb,#718ca0);clip-path:polygon(8% 0,92% 0,100% 100%,0 100%);border-radius:0 0 12px 12px}.float{position:absolute;z-index:2;background:#0b2139ef;border:1px solid #ffffff2a;padding:13px 16px;border-radius:14px;box-shadow:0 12px 30px #0004;font-size:.84rem}.float b{display:block;margin-bottom:3px}.float.one{top:15%;right:0}.float.two{bottom:14%;left:0}.section{padding:90px 0;border-top:1px solid #ffffff14}.section h2{font:600 clamp(2rem,4.5vw,3.6rem)/1.05 'Space Grotesk';letter-spacing:-.04em;margin:12px 0}.sub{color:var(--muted);line-height:1.7;max-width:700px}.quizbox{margin-top:32px;border:1px solid var(--line);background:linear-gradient(140deg,#102b48,#0a2038);border-radius:24px;padding:clamp(20px,4vw,42px);box-shadow:0 25px 70px #0002}.progressline{height:5px;background:#263f58;border-radius:99px;overflow:hidden;margin-bottom:28px}.progressline span{display:block;height:100%;width:0;background:var(--cyan);transition:width .3s}.qtop{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:.82rem}.quizbox h3{font:600 clamp(1.6rem,3.3vw,2.5rem)/1.15 'Space Grotesk';margin:20px 0 8px}.hint{color:var(--muted);margin:0 0 24px;line-height:1.6}.options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.option{text-align:left;color:var(--white);background:#153451;border:1px solid #345674;border-radius:16px;padding:18px;min-height:116px;transition:.2s}.option:hover,.option.selected{border-color:var(--cyan);background:#17446a;transform:translateY(-2px)}.option .emoji{font-size:1.65rem;display:block;margin-bottom:10px}.option b{display:block;font-size:1rem;margin-bottom:5px}.option small{color:var(--muted);line-height:1.45;display:block}.quiznav{display:flex;justify-content:space-between;gap:12px;margin-top:24px}.quiznav .btn:disabled{opacity:.35;cursor:not-allowed;transform:none}.result{display:none;margin-top:28px}.result.show{display:block;animation:rise .45s ease}.resultcard{position:relative;overflow:hidden;border-radius:22px;background:linear-gradient(130deg,#0b72bd,#103b65 58%,#0b2139);padding:clamp(24px,4vw,42px);border:1px solid #75cfff66}.resultcard:after{content:"";position:absolute;width:300px;height:300px;border:1px solid #ffffff24;border-radius:50%;right:-100px;top:-130px;box-shadow:0 0 0 30px #ffffff08,0 0 0 65px #ffffff06}.resultcard>*{position:relative;z-index:1}.resulttitle{font:700 clamp(2.2rem,5vw,4.5rem)/.98 'Space Grotesk';letter-spacing:-.05em;margin:14px 0}.pills{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.pill{border:1px solid #ffffff55;border-radius:99px;padding:7px 11px;font-size:.82rem}.resultcopy{line-height:1.7;max-width:700px;color:#e2f2fc}.recommend{margin-top:22px;padding-top:20px;border-top:1px solid #ffffff3b}.recommend strong{display:block;font-size:1.1rem;margin:7px 0}.fineprint{font-size:.82rem;color:#c4dced;line-height:1.6}.resultactions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.sharebtn{background:var(--lime);color:#14210a}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:28px}.family{padding:26px;border:1px solid var(--line);border-radius:20px;background:var(--panel)}.family h3{font:600 1.45rem 'Space Grotesk';margin:12px 0}.family p,.family li{color:var(--muted);line-height:1.65}.family ul{padding-left:20px}.tag{display:inline-block;font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--cyan);font-weight:700}.note{border-left:3px solid var(--lime);padding:12px 16px;background:#c8f1690b;color:var(--muted);line-height:1.65;margin-top:20px}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:28px}.step{border-top:2px solid var(--cyan);padding:17px 5px}.step b{display:block;margin:8px 0}.step p{color:var(--muted);font-size:.9rem;line-height:1.6}footer{padding:30px 0 50px;border-top:1px solid #ffffff14;color:var(--muted);font-size:.85rem;line-height:1.8}.sources{display:flex;gap:16px;flex-wrap:wrap;margin-top:10px}.hidden{display:none!important}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:55px;gap:15px}.hero-art{min-height:300px}.screen{height:190px;padding:18px}.base{height:15px}.float.one{right:1%;top:8%}.float.two{left:0;bottom:7%}.options{grid-template-columns:1fr}.option{min-height:auto}.twocol{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}.badge{font-size:.68rem}.section{padding:65px 0}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* First-time buyer guide */
+.guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:28px}
+.term-card{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:20px;text-align:left;color:var(--white);min-height:170px;transition:.2s}
+.term-card:hover,.term-card.active{border-color:var(--cyan);background:#153c5d;transform:translateY(-2px)}
+.term-card .term-icon{font-size:1.7rem;display:block;margin-bottom:10px}
+.term-card strong{font:600 1.15rem 'Space Grotesk';display:block;margin-bottom:7px}
+.term-card small{color:var(--muted);line-height:1.55;display:block}
+.term-detail{margin-top:18px;padding:clamp(20px,3vw,30px);border:1px solid #63d5ff66;background:linear-gradient(130deg,#103c60,#0b233c);border-radius:20px;min-height:190px}
+.term-detail h3{font:600 clamp(1.4rem,3vw,2rem) 'Space Grotesk';margin:8px 0 12px}
+.term-detail p{color:var(--muted);line-height:1.7}
+.term-detail .ask{padding:12px 15px;background:#c8f1690d;border-left:3px solid var(--lime);color:var(--white);line-height:1.6;margin-top:12px}
+.simulator{margin-top:30px;border:1px solid var(--line);border-radius:22px;padding:clamp(20px,4vw,34px);background:var(--panel)}
+.sim-options{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.sim-option{border:1px solid var(--line);border-radius:99px;background:#153451;color:var(--white);padding:11px 15px}
+.sim-option.active{border-color:var(--cyan);background:#174b70}
+.sim-result{padding:18px;border-radius:15px;background:#071b32;border:1px solid #31516e;line-height:1.7;color:var(--muted)}
+.sim-result strong{color:var(--white)}
+.checklist{margin-top:24px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.checkitem{display:flex;gap:10px;align-items:flex-start;padding:13px;border:1px solid var(--line);border-radius:12px;color:var(--muted);line-height:1.5}
+.checkitem input{margin-top:5px;accent-color:#63d5ff}
+.guide-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+@media(max-width:760px){.guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.checklist{grid-template-columns:1fr}.term-card{min-height:150px;padding:15px}}
+@media(max-width:430px){.guide-grid{grid-template-columns:1fr}}
+
+
+/* Accessibility refresh: light, calm surfaces and readable type */
+:root{--bg:#f6f8fb;--panel:#ffffff;--panel2:#eef4fa;--blue:#1769aa;--cyan:#1769aa;--white:#172638;--muted:#4b5b6d;--line:#d5dee8;--lime:#d9ef9b}
+body{background:var(--bg);color:var(--white);font-size:17px;line-height:1.6}
+.topbar{border-bottom-color:var(--line)}
+.brand span{color:#1769aa}.badge{color:#43556a;border-color:#d5dee8}
+.eyebrow,.tag{color:#155f9b}
+.hero{min-height:auto;padding-top:68px;padding-bottom:75px}
+.hero h1{font-size:clamp(2.65rem,6.6vw,5.5rem);line-height:1.02;letter-spacing:-.045em}
+.lead,.sub{color:#4b5b6d;font-size:1.08rem;line-height:1.75}
+.section{border-top-color:#e1e7ef}
+.primary{background:#1769aa;color:#fff}.secondary{background:#fff;color:#172638;border-color:#c6d2df}
+.hero-art .orb{background:radial-gradient(circle at 35% 25%,#b7e0fb,#75b8e8 42%,#e8f3fb 74%);filter:none}
+.screen{background:linear-gradient(140deg,#123b5a,#287fb3 48%,#b5e6fb);box-shadow:0 15px 32px #17263820}
+.float{background:#fff;color:#172638;border-color:#d5dee8;box-shadow:0 8px 24px #17263815}
+.quizbox,.simulator,.family,.term-card{background:#fff;box-shadow:0 5px 20px #17263808}
+.quizbox{border-color:#d5dee8}.progressline{background:#e2eaf2}.progressline span{background:#1769aa}
+.option,.sim-option{background:#f5f8fc;color:#172638;border-color:#d5dee8}
+.option small{color:#4b5b6d}.option:hover,.option.selected,.sim-option.active{border-color:#1769aa;background:#e7f2fc}
+.resultcard{background:linear-gradient(130deg,#1769aa,#174768);color:#fff}.resultcard .eyebrow{color:#d7efff}.resultcopy{color:#f0f7fc}.fineprint{color:#586a7c}
+.family p,.family li,.step p{color:#4b5b6d}.family a{color:#155f9b}.note{background:#f2f8e7;color:#40502d;border-left-color:#7da52b}
+.guide-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.term-card{color:#172638;border-color:#d5dee8;min-height:150px;padding:20px;box-shadow:0 3px 12px #17263808}
+.term-card:hover,.term-card.active{border-color:#1769aa;background:#edf6fd;transform:translateY(-2px)}
+.term-card strong{font-size:1.18rem;line-height:1.35}.term-card small{font-size:.98rem;color:#4b5b6d;line-height:1.55}
+.term-detail{background:#fff;color:#172638;border-color:#d5dee8}.term-detail p{color:#4b5b6d}.term-detail .ask{background:#f2f8e7;color:#26351c}
+.sim-result{background:#f5f8fc;color:#4b5b6d;border-color:#d5dee8}.sim-result strong{color:#172638}
+.checkitem{color:#405064;border-color:#d5dee8;background:#fff}.checkitem input{accent-color:#1769aa}
+footer{border-top-color:#e1e7ef;color:#4b5b6d}
+/* The spec explainer opens as a large, focused pop-out */
+#specDialog{width:min(680px,calc(100vw - 28px));max-height:min(82vh,760px);overflow:auto;border:1px solid #cbd7e4;border-radius:22px;padding:0;background:#fff;color:#172638;box-shadow:0 24px 80px #10243b35}
+#specDialog::backdrop{background:rgba(20,36,54,.52);backdrop-filter:blur(3px)}
+.dialog-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px 0}
+.dialog-close{border:1px solid #d5dee8;background:#f5f8fc;color:#172638;border-radius:50%;width:44px;height:44px;font-size:1.4rem;flex-shrink:0}
+.dialog-content{padding:0 28px 28px}.dialog-content h3{font-size:clamp(1.7rem,4vw,2.25rem);line-height:1.2;margin:8px 0 18px}.dialog-content p{font-size:1.05rem;line-height:1.75;color:#405064}.dialog-content .ask{margin-top:18px;padding:16px;background:#f2f8e7;border-left:4px solid #7da52b;border-radius:0 12px 12px 0;line-height:1.7}
+@media(max-width:760px){body{font-size:16px}.hero{padding-top:44px}.guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.term-card{min-height:140px;padding:17px}.term-card strong{font-size:1.08rem}.term-card small{font-size:.95rem}.dialog-content{padding:0 20px 24px}}
+@media(max-width:430px){.guide-grid{grid-template-columns:1fr}.term-card{min-height:auto}.hero h1{font-size:clamp(2.5rem,13vw,3.5rem)}.badge{display:none}}
+
+/* Customer-first Intel-inspired refresh: light, calm, accessible */
+:root{--bg:#f5f8fc;--panel:#fff;--panel2:#edf5fb;--blue:#0068b5;--cyan:#0071c5;--white:#172b3f;--muted:#526579;--line:#d7e1eb;--lime:#dff4ff}
+body{background:#f5f8fc;color:#172b3f;font-size:16px;line-height:1.6}
+a{color:#005ea8}.wrap{width:min(1200px,92vw)}
+.topbar{height:76px;border-bottom:1px solid #dce5ed;gap:22px;background:#f5f8fc}
+.brand{font-size:1.08rem;letter-spacing:-.025em;color:#17334d;text-decoration:none;white-space:nowrap}
+.brand .brand-dot{font-size:.65rem;color:#0071c5;margin-left:5px;vertical-align:top}
+.main-nav{display:flex;align-items:center;gap:clamp(12px,2vw,28px);margin-left:auto}
+.main-nav a{color:#344d63;text-decoration:none;font-size:.94rem;font-weight:600}
+.main-nav a:hover{color:#0068b5;text-decoration:underline;text-underline-offset:5px}
+.nav-cta{background:#0068b5;color:white!important;text-decoration:none;font-size:.92rem;font-weight:700;padding:11px 17px;border-radius:7px;white-space:nowrap}
+.hero{min-height:610px;padding:64px 0 76px;gap:4vw}
+.eyebrow{color:#0068b5;letter-spacing:.1em;font-size:.8rem}
+.hero h1{font-size:clamp(3rem,6vw,5.5rem);line-height:1.02;letter-spacing:-.055em;color:#142f49}
+.hero h1 em{color:#0071c5}
+.lead{font-size:clamp(1.05rem,1.5vw,1.2rem);line-height:1.75;color:#526579}
+.btn{border-radius:7px;padding:14px 20px;min-height:48px}
+.primary{background:#0068b5;color:#fff}.primary:hover,.nav-cta:hover{background:#004f8c}
+.secondary{background:#fff;color:#17405f;border:1px solid #b8c9d8}
+.fineprint{color:#64778a;font-size:.88rem;line-height:1.6}
+.hero-art{min-height:370px}
+.orb{background:radial-gradient(circle at 35% 25%,#d8efff,#7ec5f3 42%,#e9f4fc 75%);filter:none}
+.screen{background:linear-gradient(140deg,#003f73,#087ac1 55%,#6ac7f3);box-shadow:0 16px 38px #17334d1a}
+.screen small{color:#e6f7ff}.screen strong span{color:#cceeff}
+.float{background:#fff;color:#17334d;border:1px solid #dce5ed;box-shadow:0 12px 30px #17334d14}
+.section{padding:76px 0;border-top:1px solid #e0e8ef}
+.section h2{color:#17334d;font-size:clamp(2rem,4vw,3.25rem);letter-spacing:-.04em}
+.sub{color:#526579;font-size:1.05rem}
+.quizbox{background:#fff;border:1px solid #dce5ed;border-radius:18px;box-shadow:0 12px 40px #18344d0a}
+.progressline{background:#e4edf5}.progressline span{background:#0071c5}
+.qtop{color:#63778a}.quizbox h3{color:#17334d}.hint{color:#526579}
+.option{background:#f8fbfe;color:#17334d;border:1px solid #d7e1eb;border-radius:12px}
+.option:hover,.option.selected{border-color:#0071c5;background:#eaf5fc}
+.option small{color:#526579}
+.resultcard{background:linear-gradient(135deg,#0068b5,#064b80 70%,#17334d);border:1px solid #b4ddf6}
+.guide-grid{gap:12px}
+.term-card{background:#fff!important;color:#17334d!important;border:1px solid #d7e1eb!important;border-radius:12px!important;box-shadow:0 3px 10px #17334d08}
+.term-card small{color:#526579!important;font-size:.92rem!important}.term-card strong{font-size:1.02rem!important}
+.term-card:hover,.term-card.active{border-color:#0071c5!important;background:#eef7fd!important;box-shadow:0 5px 16px #0071c51a}
+.term-detail,.simulator,.step,.note{background:#fff!important;color:#17334d!important;border:1px solid #d7e1eb!important;border-radius:14px}
+.term-detail p,.simulator p,.step p,.note{color:#526579}.tag{color:#0068b5!important}
+.ask{background:#eef7fd!important;border-left:4px solid #0071c5!important;color:#17334d!important}
+.sim-option{background:#fff!important;color:#17334d!important;border:1px solid #d7e1eb!important;border-radius:9px!important}
+.sim-option.active,.sim-option:hover{background:#eaf5fc!important;border-color:#0071c5!important}
+.steps{gap:14px}.step{padding:24px}
+footer{background:#eaf1f7!important;color:#526579!important;border-top:1px solid #d7e1eb}
+footer b{color:#17334d}.sources a{color:#005ea8}
+dialog#specDialog{width:min(560px,calc(100vw - 28px));max-width:none;padding:0;border:1px solid #d5e1eb;border-radius:18px;background:#fff;color:#17334d;box-shadow:0 24px 80px #102d4633}
+dialog#specDialog::backdrop{background:#102d46a6;backdrop-filter:blur(3px)}
+.dialog-head{background:#f0f7fc!important;color:#526579!important;border-bottom:1px solid #dce7f0!important;padding:18px 22px!important}
+.dialog-close{background:#fff!important;color:#17334d!important;border:1px solid #ccd9e5!important;width:38px;height:38px;border-radius:50%;font-size:1.4rem}
+.dialog-content{padding:26px}.dialog-content h3{font-size:clamp(1.5rem,4vw,2rem);line-height:1.2;color:#17334d;margin:0 0 18px}
+.dialog-content p{font-size:1.05rem;line-height:1.75;color:#526579}
+.dialog-content .ask{padding:16px;border-radius:8px;line-height:1.65}
+@media(max-width:760px){
+ .topbar{height:auto;min-height:68px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px;gap:10px}
+ .main-nav{order:3;width:100%;overflow-x:auto;margin:0;gap:20px;padding:7px 0 2px}
+ .main-nav a{font-size:.88rem;white-space:nowrap}.nav-cta{margin-left:auto;padding:10px 12px}
+ .hero{min-height:auto;padding:46px 0 54px;grid-template-columns:1fr;gap:18px}
+ .hero-art{min-height:280px;margin-top:0}.screen{height:200px;padding:20px}
+ .float{font-size:.78rem;padding:10px 12px}.section{padding:56px 0}
+ .options{grid-template-columns:1fr}.option{min-height:90px;padding:16px}.dialog-content{padding:22px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+</style></head><body>
+<header class="topbar wrap">
+ <a class="brand" href="#" aria-label="Find Your Fit home">FIND YOUR FIT<span class="brand-dot">●</span></a>
+ <nav class="main-nav" aria-label="Main navigation"><a href="#quiz">Find your laptop</a><a href="#buyer-guide">Understand specs</a><a href="#families">Processor families</a></nav>
+ <a class="nav-cta" href="#quiz">Get started <span aria-hidden="true">→</span></a>
+</header><main>
+<section class="hero wrap"><div><div class="eyebrow">A simpler way to choose your next laptop</div><h1>Find a laptop<br>that fits <em>you.</em></h1><p class="lead">Explore laptop options through the things you actually do—study, code, create, play and explore AI. Get clear guidance on what matters, without needing to speak tech.</p><div class="actions"><button class="btn primary" onclick="document.querySelector('#quiz').scrollIntoView({behavior:'smooth'})">Find my laptop ↗</button><button class="btn secondary" onclick="document.querySelector('#buyer-guide').scrollIntoView({behavior:'smooth'})">Understand the specs</button></div><p class="fineprint">A quick guide · No sign-in · Built around your priorities</p></div><div class="hero-art" aria-label="Illustration of a laptop"><div class="orb"></div><div class="laptop"><div class="screen"><small>YOUR NEXT CHAPTER</small><strong>MAKE IT<br><span>YOUR WAY.</span></strong><small>WORK • CREATE • EXPLORE</small></div><div class="base"></div></div><div class="float one"><b>First, your needs.</b>Specs come second.</div><div class="float two"><b>Make an informed choice.</b>Not a guess.</div></div></section>
+<section id="quiz" class="section"><div class="wrap"><div class="eyebrow">The laptop job interview</div><h2>Let's find out what<br>you're hiring for.</h2><p class="sub">Choose what sounds most like you. Your answers shape the guidance—there are no wrong answers.</p><div class="quizbox" id="quizbox"><div class="progressline"><span id="progress"></span></div><div class="qtop"><span id="stepcount">QUESTION 1 OF 4</span><span>Your choices stay in this browser</span></div><h3 id="question"></h3><p class="hint" id="hint"></p><div class="options" id="options"></div><div class="quiznav"><button class="btn secondary" id="back" disabled>← Back</button><button class="btn primary" id="next" disabled>Next →</button></div></div><div class="result" id="result"><div class="resultcard" id="resultcard"><div class="eyebrow">Your laptop identity</div><h3 class="resulttitle" id="resulttitle">THE PROJECT BUILDER</h3><p id="resultintro" class="resultcopy"></p><div class="pills" id="resultpills"></div><div class="recommend"><span class="eyebrow">A direction to explore</span><strong id="resultdirection"></strong><p id="resultwhy" class="resultcopy"></p></div><p class="fineprint">This is a starting point based on your answers—not a benchmark or guarantee. Compare the exact processor SKU, RAM, storage, display, battery tests, price and laptop design before buying.</p></div><div class="resultactions"><button class="btn sharebtn" id="download">Download my identity card ↗</button><button class="btn secondary" id="share">Share my result</button><button class="btn secondary" id="retake">Retake quiz</button></div><p class="fineprint" id="sharestatus" aria-live="polite"></p></div></div></section>
+
+<section id="buyer-guide" class="section">
+ <div class="wrap">
+  <div class="eyebrow">Your friendly laptop seller</div>
+  <h2>First laptop? I'll translate<br>the tech talk.</h2>
+  <p class="sub">You don't need to memorise specifications. Tap any term to see what it means, when it matters in daily life, and what to ask before you buy.</p>
+  <div class="guide-grid" id="guideGrid">
+   <button class="term-card active" data-term="cpu"><span class="term-icon">🧠</span><strong>Processor (CPU)</strong><small>The laptop's main problem-solver.</small></button>
+   <button class="term-card" data-term="cores"><span class="term-icon">🛣️</span><strong>Cores</strong><small>How many work lanes the CPU has.</small></button>
+   <button class="term-card" data-term="ram"><span class="term-icon">🗂️</span><strong>RAM / Memory</strong><small>Your active workspace.</small></button>
+   <button class="term-card" data-term="storage"><span class="term-icon">🧳</span><strong>SSD / Storage</strong><small>Where files and apps stay.</small></button>
+   <button class="term-card" data-term="gpu"><span class="term-icon">🎨</span><strong>Graphics (GPU)</strong><small>Helps draw images, video and 3D.</small></button>
+   <button class="term-card" data-term="npu"><span class="term-icon">✨</span><strong>NPU / AI engine</strong><small>A specialised helper for some AI tasks.</small></button>
+   <button class="term-card" data-term="speed"><span class="term-icon">⚡</span><strong>GHz / Clock speed</strong><small>One clue about CPU operating speed.</small></button>
+   <button class="term-card" data-term="battery"><span class="term-icon">🔋</span><strong>Battery life</strong><small>How long you can work unplugged.</small></button>
+   <button class="term-card" data-term="display"><span class="term-icon">🖥️</span><strong>Screen / Display</strong><small>The part you look at all day.</small></button>
+   <button class="term-card" data-term="weight"><span class="term-icon">🎒</span><strong>Weight & build</strong><small>Important if you carry it daily.</small></button>
+   <button class="term-card" data-term="ports"><span class="term-icon">🔌</span><strong>Ports</strong><small>Where chargers and accessories connect.</small></button>
+   <button class="term-card" data-term="cooling"><span class="term-icon">🌬️</span><strong>Cooling</strong><small>Helps the laptop sustain performance.</small></button>
+  </div>
+  <div class="term-detail hidden" aria-live="polite">
+   <span class="tag" id="termTag">THE MAIN PROBLEM-SOLVER</span>
+   <h3 id="termTitle">Processor (CPU)</h3>
+   <p id="termMeaning"></p>
+   <p id="termDaily"></p>
+   <div class="ask"><strong>Ask the seller:</strong> <span id="termAsk"></span></div>
+  </div>
+  <div class="note"><b>Seller tip:</b> Don't judge a laptop by one number. The processor, RAM, SSD, cooling, battery, screen and price work together. Two laptops with a similar processor name can still feel different.</div>
+ </div>
+</section>
+
+<section class="section" id="daily-life">
+ <div class="wrap">
+  <div class="eyebrow">Try before you buy</div>
+  <h2>What will your laptop<br>feel like in your day?</h2>
+  <p class="sub">Choose a real-life task. We'll explain which parts of the laptop matter and what to check in a shop. This is a learning guide, not a performance benchmark.</p>
+  <div class="simulator">
+   <h3 style="font-family:'Space Grotesk';font-size:1.5rem;margin:0">A day in your life</h3>
+   <div class="sim-options" id="simOptions">
+    <button class="sim-option active" data-sim="student">📚 Classes & assignments</button>
+    <button class="sim-option" data-sim="coding">💻 Coding & projects</button>
+    <button class="sim-option" data-sim="creative">🎬 Photo/video editing</button>
+    <button class="sim-option" data-sim="gaming">🎮 Gaming / 3D</button>
+    <button class="sim-option" data-sim="ai">🤖 AI tools</button>
+   </div>
+   <div class="sim-result" id="simResult" aria-live="polite"></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="shop-checklist">
+ <div class="wrap">
+  <div class="eyebrow">Save this before you shop</div>
+  <h2>Your no-confusion<br>laptop checklist.</h2>
+  <p class="sub">Use this list in a store or while comparing online listings. Tick items as you verify them; don't rely only on the salesperson's summary.</p>
+  <div class="checklist" id="checklist">
+   <label class="checkitem"><input type="checkbox"> <span><strong>Exact processor model</strong><br>Ask for the full model name—not only “Core” or “Core Ultra”.</span></label>
+   <label class="checkitem"><input type="checkbox"> <span><strong>RAM amount and upgrade options</strong><br>Check whether it meets your apps' needs and whether it can be upgraded.</span></label>
+   <label class="checkitem"><input type="checkbox"> <span><strong>SSD storage capacity</strong><br>Make sure there's room for apps, projects, photos and files.</span></label>
+   <label class="checkitem"><input type="checkbox"> <span><strong>Graphics type</strong><br>Check integrated or discrete GPU and your software's requirements.</span></label>
+   <label class="checkitem"><input type="checkbox"> <span><strong>Real battery reviews</strong><br>Advertised battery life depends on test conditions and usage.</span></label>
+   <label class="checkitem"><input type="checkbox"> <span><strong>Screen, keyboard and weight</strong><br>Try the display and keyboard; check weight if carrying it to class.</span></label>
+   <label class="checkitem"><input type="checkbox"> <span><strong>Ports, Wi-Fi and webcam</strong><br>Make sure it connects to the devices and networks you use.</span></label>
+   <label class="checkitem"><input type="checkbox"> <span><strong>Price, warranty and return policy</strong><br>Compare the full deal, service options and exact configuration.</span></label>
+  </div>
+  <div class="guide-actions">
+   <button class="btn primary" id="downloadChecklist">Download my checklist ↗</button>
+   <button class="btn secondary" onclick="document.querySelector('#families').scrollIntoView({behavior:'smooth'})">Now compare processor families</button>
+  </div>
+ </div>
+</section>
+
+<section id="families" class="section"><div class="wrap"><div class="eyebrow">Two families. Different configurations.</div><h2>Now, meet the candidates.</h2><p class="sub">These processor families overlap in what they can do. The useful question is which specific laptop configuration matches your needs and budget.</p><div class="twocol"><article class="family"><span class="tag">Explore for everyday needs</span><h3>Intel® Core™ Series 3</h3><p>Intel positions Core Series 3 for value-focused computing, including everyday use, schools and small businesses.</p><ul><li>Worth exploring for study, browsing, documents, video calls and common productivity.</li><li>Specific models differ in frequency, graphics, connectivity and other capabilities.</li><li>Check the whole laptop's price, memory, battery reviews and display—not just the processor.</li></ul><a href="https://www.intel.com/content/www/us/en/products/details/processors/core.html" target="_blank" rel="noopener">Explore official Intel Core products ↗</a></article><article class="family"><span class="tag">Explore for demanding workflows</span><h3>Intel® Core™ Ultra Series 3</h3><p>Core Ultra Series 3 includes a range of configurations, including higher-end options aimed at demanding graphics, gaming, creation and AI-enabled workloads.</p><ul><li>Worth comparing for graphics-heavy projects, demanding multitasking, gaming or AI-related work.</li><li>Capabilities vary considerably by exact model and laptop design.</li><li>Check software compatibility, memory, cooling, battery results and price for the system you're considering.</li></ul><a href="https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/products.html" target="_blank" rel="noopener">Explore official Intel Core Ultra products ↗</a></article></div><div class="note"><b>Accuracy note:</b> A processor family name alone cannot guarantee performance, battery life, gaming frame rates or AI capability. Results depend on the exact processor, laptop design, power settings, cooling, memory, software and workload. Use product-specific specifications and test conditions for any direct comparison.</div></div></section>
+<section class="section"><div class="wrap"><div class="eyebrow">A simple decision journey</div><h2>From “I'm not sure”<br>to “I know what to compare.”</h2><div class="steps"><div class="step"><span class="eyebrow">01</span><b>Know your day</b><p>Describe the tasks you actually do—not the specs you think you need.</p></div><div class="step"><span class="eyebrow">02</span><b>Set your priorities</b><p>Balance budget, multitasking, graphics, battery and software needs.</p></div><div class="step"><span class="eyebrow">03</span><b>Explore candidates</b><p>Use the family guidance as a starting point, then compare exact laptop models.</p></div><div class="step"><span class="eyebrow">04</span><b>Share your identity</b><p>Download your result card or share it with friends who are shopping too.</p></div></div></div></section></main>
+<footer><div class="wrap"><b>FIND YOUR FIT</b> is an independent educational concept for helping buyers navigate processor choices. It is not an official Intel recommendation tool and is not affiliated with or endorsed by Intel.<div class="sources"><a href="https://www.intel.com/content/www/us/en/newsroom/news/client-computing/intel-launches-intel-core-series-3-processors-changing-the-game-for-everyday-computing.html" target="_blank" rel="noopener">Intel Core Series 3 positioning ↗</a><a href="https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/ces-2026-intel-core-ultra-series-3-debut-first-built-on-intel-18a.html" target="_blank" rel="noopener">Intel Core Ultra Series 3 overview ↗</a></div><p>Always verify current product specifications, pricing and availability with Intel and the laptop manufacturer.</p></div></footer>
+<dialog id="specDialog" aria-labelledby="dialogTitle"><div class="dialog-head"><span class="tag" id="dialogTag">LAPTOP SPECS, MADE SIMPLE</span><button class="dialog-close" type="button" id="closeSpecDialog" aria-label="Close explanation">×</button></div><div class="dialog-content"><h3 id="dialogTitle">Processor (CPU)</h3><p id="dialogMeaning"></p><p id="dialogDaily"></p><div class="ask"><strong>Ask the seller:</strong><br><span id="dialogAsk"></span></div></div></dialog>
+<script>
+const qs=[{q:"What's a typical day for you?",hint:"Pick the role that feels closest. You can still have more than one interest.",opts:[{e:"📚",t:"The Everyday Explorer",d:"Classes, browsing, documents, video calls",v:"everyday"},{e:"💻",t:"The Project Builder",d:"Coding, research, development and multitasking",v:"builder"},{e:"🎨",t:"The Creative Studio",d:"Design, photo/video editing and visual work",v:"creative"},{e:"🤖",t:"The AI Experimenter",d:"AI tools, technical projects and new workflows",v:"ai"}]},{q:"What matters most when choosing?",hint:"Choose the priority you'd notice every day.",opts:[{e:"💸",t:"Practical value",d:"Spend on capabilities I will actually use",v:"value"},{e:"⚖️",t:"Balanced everyday use",d:"A good fit for several kinds of tasks",v:"balanced"},{e:"🚀",t:"More demanding workloads",d:"Graphics, creative tools or heavier applications",v:"demand"},{e:"🔋",t:"Battery and portability",d:"A laptop that fits how and where I work",v:"battery"}]},{q:"What do you want your laptop to handle?",hint:"Think about real apps and projects—not marketing labels.",opts:[{e:"📝",t:"Everyday applications",d:"Browser, Office-style apps, learning platforms",v:"basic"},{e:"🧩",t:"Development and multitasking",d:"IDE, local tools, tabs and project work",v:"code"},{e:"🖼️",t:"Creative or graphics-heavy work",d:"Editing, design, gaming or 3D tasks",v:"graphics"},{e:"✨",t:"AI-enabled workflows",d:"AI features or local workloads where supported",v:"aiwork"}]},{q:"What's your biggest laptop worry?",hint:"This helps shape your checklist. The right answer depends on the complete system.",opts:[{e:"🏷️",t:"Paying for things I don't need",d:"Keep cost aligned with my real use",v:"cost"},{e:"🐢",t:"Slowdowns while multitasking",d:"Check CPU, RAM and thermal design",v:"slow"},{e:"🎬",t:"Creative work feeling limited",d:"Check GPU, memory and app requirements",v:"limit"},{e:"🔎",t:"Not knowing what specs mean",d:"Give me a clear comparison checklist",v:"confused"}]}];let answers=[null,null,null,null],step=0;const $=id=>document.getElementById(id);
+function render(){let q=qs[step];$('stepcount').textContent=`QUESTION ${step+1} OF ${qs.length}`;$('question').textContent=q.q;$('hint').textContent=q.hint;$('options').innerHTML='';q.opts.forEach(o=>{let b=document.createElement('button');b.className='option'+(answers[step]===o.v?' selected':'');b.innerHTML=`<span class="emoji">${o.e}</span><b>${o.t}</b><small>${o.d}</small>`;b.onclick=()=>{answers[step]=o.v;render()};$('options').appendChild(b)});$('back').disabled=step===0;$('next').disabled=!answers[step];$('next').textContent=step===qs.length-1?'Reveal my fit ↗':'Next →';$('progress').style.width=`${(step+(answers[step]?1:0))/qs.length*100}%`;}$('back').onclick=()=>{if(step>0){step--;render()}};$('next').onclick=()=>{if(!answers[step])return;if(step<qs.length-1){step++;render()}else showResult()};
+function showResult(){let [role,priority,task,worry]=answers;let title,dir,why;if(role==='everyday'&&(priority==='value'||task==='basic'||worry==='cost')){title='THE EVERYDAY EXPLORER';dir='Start by exploring selected Intel Core Series 3 laptops.';why='Your answers lean toward everyday productivity and practical value. Compare real laptop prices, memory, battery reviews and the applications you use. A Core Ultra model may still be a fit if its overall configuration and price make sense.'}else if(task==='graphics'||role==='creative'||role==='ai'||task==='aiwork'||priority==='demand'){title=role==='ai'||task==='aiwork'?'THE AI EXPERIMENTER':'THE CREATIVE CATALYST';dir='Explore suitable Intel Core Ultra Series 3 configurations, then compare exact models.';why='Your answers point toward more demanding graphics, creative or AI-related workflows. Look closely at the exact CPU and GPU, memory, software support, cooling and independent workload tests. Not every Core Ultra configuration has the same capabilities.'}else if(role==='builder'||task==='code'||priority==='balanced'){title='THE PROJECT BUILDER';dir='Compare specific Intel Core Series 3 and Core Ultra Series 3 laptops against your development tools.';why='Coding needs vary widely. A lightweight learning setup may have different needs from virtual machines, large builds or local AI. Check RAM, storage, sustained performance, ports and cooling before choosing a family.'}else{title='THE PRACTICAL PLANNER';dir='Build a shortlist from both families using your budget and must-have specifications.';why='Your answers show that the complete laptop matters more than a label. Compare a few systems side by side for price, memory, storage, display, weight, battery testing, warranty and required applications.'}$('resulttitle').textContent=title;$('resultintro').textContent='Your day has a pattern. Use this identity as a starting point—not a box to put yourself in.';let tags=[qs[0].opts.find(x=>x.v===role).t,qs[1].opts.find(x=>x.v===priority).t,qs[2].opts.find(x=>x.v===task).t];$('resultpills').innerHTML=tags.map(t=>`<span class="pill">${t}</span>`).join('');$('resultdirection').textContent=dir;$('resultwhy').textContent=why;$('quizbox').classList.add('hidden');$('result').classList.add('show');$('progress').style.width='100%';$('result').scrollIntoView({behavior:'smooth',block:'start'});}
+$('retake').onclick=()=>{answers=[null,null,null,null];step=0;$('result').classList.remove('show');$('quizbox').classList.remove('hidden');render();$('quiz').scrollIntoView({behavior:'smooth'})};function wrapCanvas(ctx,text,x,y,maxWidth,lineHeight){let words=text.split(' '),line='';for(let n=0;n<words.length;n++){let test=line+words[n]+' ';if(ctx.measureText(test).width>maxWidth&&n>0){ctx.fillText(line,x,y);line=words[n]+' ';y+=lineHeight}else line=test}ctx.fillText(line,x,y)}function cardCanvas(){let c=document.createElement('canvas');c.width=1080;c.height=1080;let x=c.getContext('2d'),g=x.createLinearGradient(0,0,1080,1080);g.addColorStop(0,'#0879d1');g.addColorStop(.58,'#103b65');g.addColorStop(1,'#071b32');x.fillStyle=g;x.fillRect(0,0,1080,1080);x.strokeStyle='#ffffff20';x.lineWidth=2;for(let r=160;r<700;r+=75){x.beginPath();x.arc(930,100,r,0,Math.PI*2);x.stroke()}x.fillStyle='#63d5ff';x.font='700 28px Arial';x.fillText('FIND YOUR FIT / LAPTOP IDENTITY',72,90);x.fillStyle='#fff';x.font='700 64px Arial';wrapCanvas(x,$('resulttitle').textContent,72,260,900,76);x.fillStyle='#cce8f7';x.font='28px Arial';wrapCanvas(x,'YOUR LIFE. YOUR WORKLOAD. YOUR LAPTOP.',72,430,900,42);x.fillStyle='#fff';x.font='600 31px Arial';wrapCanvas(x,$('resultdirection').textContent,72,565,900,44);x.fillStyle='#c8f169';x.font='24px Arial';x.fillText('A starting point—not a guaranteed winner.',72,860);x.fillStyle='#c5d9e8';x.font='20px Arial';x.fillText('Compare exact laptop specifications before buying.',72,910);x.fillText('Educational concept • Not an official Intel recommendation',72,960);return c}$('download').onclick=()=>{let a=document.createElement('a');a.download='my-laptop-identity.png';a.href=cardCanvas().toDataURL('image/png');a.click();$('sharestatus').textContent='Your 1080 × 1080 identity card has been downloaded.'};$('share').onclick=async()=>{let text=`My laptop identity: ${$('resulttitle').textContent}\n${$('resultdirection').textContent}\nFind your fit: explore your workload before choosing a laptop.`;try{if(navigator.share){await navigator.share({title:'My Laptop Identity — Find Your Fit',text,url:location.href})}else{await navigator.clipboard.writeText(text+'\n'+location.href);$('sharestatus').textContent='Result text copied. Paste it into your social post. Host the site online to share a public link.'}}catch(e){$('sharestatus').textContent='You can download the result card and share it manually.'}};render();
+
+/* Plain-language specification guide */
+const specGuide={
+ cpu:{tag:"THE MAIN PROBLEM-SOLVER",title:"Processor (CPU)",meaning:"The CPU is like the main problem-solver in a laptop. It handles instructions from apps and helps the computer respond.",daily:"For notes, browsing and video calls, many modern CPUs are sufficient. Bigger builds, heavy multitasking and demanding apps can need more sustained performance. A processor name alone doesn't tell the whole story.",ask:"What is the exact processor model, and can I compare the full laptop configuration and independent reviews?"},
+ cores:{tag:"WORK LANES",title:"CPU cores",meaning:"Think of cores as work lanes inside the processor. More cores can help with tasks that can run in parallel—but more cores do not automatically make every app faster.",daily:"A browser and notes app may not use all cores. Video rendering, compiling code or some creative tasks may benefit more from additional cores.",ask:"How many cores does this exact processor have, and what do reviews say for the apps I use?"},
+ ram:{tag:"YOUR ACTIVE WORKSPACE",title:"RAM (memory)",meaning:"RAM is like the desk space you have while working. Apps and files you're actively using occupy that space. When it's tight, switching tasks can become less smooth.",daily:"Many browser tabs, video calls, coding tools and large files can use more RAM. RAM is different from storage: it is working space, not your permanent file cupboard.",ask:"How much RAM is installed? Is it upgradeable, or is it soldered to the laptop?"},
+ storage:{tag:"YOUR FILE CUPBOARD",title:"SSD / storage",meaning:"Storage is where your operating system, apps, downloads, photos and projects are kept even when the laptop is off. An SSD is a fast type of storage.",daily:"A larger SSD gives you more room for games, videos, coding tools and project files. SSD capacity and RAM capacity solve different problems.",ask:"What is the SSD capacity, and can it be replaced or expanded later?"},
+ gpu:{tag:"THE VISUAL WORKER",title:"Graphics (GPU)",meaning:"The GPU handles drawing images and video on screen. It can be built into the processor or be a separate graphics chip in the laptop.",daily:"Everyday display use and video playback can work well on integrated graphics. Some games, 3D work and creative apps benefit from stronger graphics. Check the requirements of the specific app or game.",ask:"Is graphics integrated or discrete, and does this exact configuration meet my apps' recommended requirements?"},
+ npu:{tag:"A SPECIALISED AI HELPER",title:"NPU / AI engine",meaning:"An NPU is a specialised processor designed to accelerate certain AI tasks efficiently. It is not a magic chip that makes every AI app faster.",daily:"Some supported effects or AI features may use an NPU. Other AI workloads may rely on the CPU, GPU, cloud services or a combination. Software support matters.",ask:"Which AI features do I actually plan to use, and do those apps support this laptop's NPU?"},
+ speed:{tag:"ONE CLUE, NOT THE WHOLE STORY",title:"GHz / clock speed",meaning:"GHz describes a processor's clock rate. A higher number can be useful to know, but it isn't a fair way to compare different processor designs by itself.",daily:"A CPU's performance also depends on its architecture, core types, power limits, cooling and the task. Don't assume a laptop with a bigger GHz number is always faster.",ask:"Can I compare independent results for the same workload, rather than choosing by GHz alone?"},
+ battery:{tag:"WORK WITHOUT THE SOCKET",title:"Battery life",meaning:"Battery life is how long a laptop lasts before it needs charging. Advertised figures are measured under particular conditions and may not match your routine.",daily:"Brightness, video calls, Wi-Fi, apps, battery size and laptop settings all affect runtime. A lightweight laptop can still have modest battery life, so check realistic reviews.",ask:"Are there independent battery tests for browsing, video calls or mixed use—and under what conditions?"},
+ display:{tag:"WHAT YOU LOOK AT ALL DAY",title:"Screen / display",meaning:"The display is the screen. Size affects portability; resolution affects detail; brightness affects visibility; refresh rate affects how often the image updates.",daily:"For reading and coding, clarity and comfortable brightness matter. Creative work may need better colour accuracy; gaming may value a higher refresh rate. A bigger screen often adds size and weight.",ask:"What are the screen size, resolution, brightness and panel type? Can I see it in person?"},
+ weight:{tag:"YOUR DAILY CARRY",title:"Weight & build",meaning:"This is how heavy and sturdy the laptop feels, including what you need to carry. The charger can add weight too.",daily:"If you travel to classes every day, weight, hinge quality, keyboard comfort and charger size can matter more than a small benchmark difference.",ask:"Can I pick it up, type on it and check the combined weight with the charger?"},
+ ports:{tag:"HOW IT CONNECTS",title:"Ports",meaning:"Ports are the physical sockets used for charging, USB devices, monitors, headphones, memory cards and other accessories.",daily:"You may need HDMI for a projector, USB-A for an older device, USB-C for accessories or a headphone jack. USB-C ports don't all support the same features.",ask:"Which ports are included, and which USB-C ports support charging, display output or high-speed data?"},
+ cooling:{tag:"KEEPING PERFORMANCE STEADY",title:"Cooling",meaning:"The cooling system moves heat away from the processor and other components. Thin laptops have less room for cooling than larger designs.",daily:"A laptop may run fast for a short task but slow down during long gaming, rendering or compiling if heat and power limits kick in. Fan noise can also matter in class or a library.",ask:"How does this model perform in longer workloads, and how loud or warm does it get in reviews?"}
+};
+function selectTerm(key){const t=specGuide[key];if(!t)return;document.querySelectorAll(".term-card").forEach(b=>b.classList.toggle("active",b.dataset.term===key));document.getElementById("dialogTag").textContent=t.tag;document.getElementById("dialogTitle").textContent=t.title;document.getElementById("dialogMeaning").textContent=t.meaning;document.getElementById("dialogDaily").textContent=t.daily;document.getElementById("dialogAsk").textContent=t.ask;const d=document.getElementById("specDialog");if(!d.open)d.showModal();}
+document.querySelectorAll(".term-card").forEach(b=>b.addEventListener("click",()=>selectTerm(b.dataset.term)));
+document.getElementById("closeSpecDialog").addEventListener("click",()=>document.getElementById("specDialog").close());
+document.getElementById("specDialog").addEventListener("click",e=>{if(e.target===e.currentTarget)e.currentTarget.close()});
+
+const dailyExamples={
+ student:{title:"For classes & assignments",text:"<strong>What matters:</strong> a suitable processor, enough RAM for browser tabs and video calls, an SSD for quick app/file access, a comfortable screen and keyboard, webcam, Wi-Fi and realistic battery life.<br><strong>Processor thought:</strong> selected Core Series 3 laptops may be a sensible starting point for everyday workloads; compare exact models and total price. You may not need to pay for capabilities you won't use."},
+ coding:{title:"For coding & projects",text:"<strong>What matters:</strong> RAM for an IDE plus browser tabs, SSD space for tools and projects, a CPU suited to your build workload, ports and cooling for longer sessions.<br><strong>Processor thought:</strong> beginner programming is not the same as large builds, virtual machines or local AI. Compare exact models using your tools; both families may be worth considering depending on project size."},
+ creative:{title:"For photo/video editing",text:"<strong>What matters:</strong> supported GPU capabilities, RAM, fast and sufficient storage, screen quality/colour, and the requirements of your editing app.<br><strong>Processor thought:</strong> explore suitable higher-capability Core Ultra Series 3 configurations, but check the exact CPU/GPU and app requirements. The family label alone doesn't guarantee smooth editing."},
+ gaming:{title:"For gaming & 3D",text:"<strong>What matters:</strong> the exact GPU, game-specific requirements, memory, screen refresh rate, cooling and sustained performance. A dedicated GPU may be important for demanding games or 3D apps.<br><strong>Processor thought:</strong> compare complete laptop models and real game tests. Do not choose from CPU family name alone."},
+ ai:{title:"For AI tools",text:"<strong>What matters:</strong> which AI application you plan to use, whether it runs in the cloud or locally, software support, RAM, GPU capability and whether the feature uses an NPU.<br><strong>Processor thought:</strong> Core Ultra models include different AI-related capabilities, but an NPU is useful only for supported workloads. Check the exact model and app compatibility."}
+};
+function showDaily(key){const item=dailyExamples[key];document.querySelectorAll(".sim-option").forEach(b=>b.classList.toggle("active",b.dataset.sim===key));document.getElementById("simResult").innerHTML="<strong>"+item.title+"</strong><br>"+item.text;}
+document.querySelectorAll(".sim-option").forEach(b=>b.addEventListener("click",()=>showDaily(b.dataset.sim)));
+showDaily("student");
+document.getElementById("downloadChecklist").addEventListener("click",()=>{const items=[...document.querySelectorAll("#checklist input")].map((el,i)=>`${el.checked?"[x]":"[ ]"} ${el.parentElement.innerText.trim().replace(/\n/g," — ")}`);const body="FIND YOUR FIT — FIRST LAPTOP BUYING CHECKLIST\n\n"+items.join("\n\n")+"\n\nRemember: compare the exact laptop configuration, price, warranty and independent reviews. A processor name alone cannot guarantee performance or battery life.";const blob=new Blob([body],{type:"text/plain;charset=utf-8"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="first-laptop-buying-checklist.txt";a.click();URL.revokeObjectURL(url);});
+
+</script></body></html>
